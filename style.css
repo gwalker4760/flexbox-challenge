@@ -22,7 +22,7 @@ header {
     text-align: center;
 }
 
-header a {
+header > a {
     color: white;
     text-decoration: none;
     justify-content: space-around;
@@ -37,12 +37,13 @@ header a {
 .panel {
     border: 2px solid black;
     display: flex;
-
+    font-size: 20px;
 }
 
-#right-hand-panel {
+div {
+    justify-content: flex-end;
     border: 2px solid black;
-    margin-left: 20px;
+    width: 30%;
 }
 
 a:hover {
