@@ -41,9 +41,9 @@ header > a {
 }
 
 div {
-    justify-content: flex-end;
+    display: flex;
     border: 2px solid black;
-    width: 30%;
+    height: auto;
 }
 
 a:hover {
