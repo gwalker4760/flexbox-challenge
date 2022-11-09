@@ -1,6 +1,9 @@
 main {
     display: flex;
-    margin: 10px;
+    margin: 5px;
+    flex-direction: column;
+    width: 60%;
+   
 }
 
 header {
@@ -23,10 +26,10 @@ header a {
     color: white;
     text-decoration: none;
     justify-content: space-around;
-    width: 15vw;
+    width: 5vw;
     height: 50px;
-    margin-top: 50px;
     text-align: center;
+    flex-wrap: wrap;
 }
 
 
@@ -34,7 +37,7 @@ header a {
 .panel {
     border: 2px solid black;
     display: flex;
-    flex-direction: column;
+
 }
 
 #right-hand-panel {
